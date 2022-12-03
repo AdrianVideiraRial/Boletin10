@@ -1,0 +1,158 @@
+.Box01 {
+    border-top-width: 10px;
+    border-top-style: dashed;
+    border-top-color: blue;
+    border-bottom-width: 25px;
+    border-bottom-style: dashed;
+    border-bottom-color: blue;
+    border-right-width: 15px;
+    border-right-style: dashed;
+    border-right-color: green;
+    border-left-width: 25px;
+    border-left-style: solid;
+    border-left-color: green;
+    margin-bottom: 10px;
+}
+.Box02{
+    border-top-width: 25px;
+    border-bottom-width: 25px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-style: double;
+    border-color: orange;
+    margin-bottom: 10px;
+}
+.Box03{
+    border-top-width: 15px;
+    border-top-style: solid;
+    border-top-color: rgb(4, 246, 52);
+    border-bottom-width: 15px;
+    border-bottom-style: solid;
+    border-bottom-color:blue;
+    margin-bottom: 10px;
+}
+.Box04{
+    border-top-width: 25px;
+    border-top-style: dashed;
+    border-top-color: red;
+    border-bottom-width: 25px;
+    border-bottom-style: dotted;
+    border-bottom-color: black;
+    border-right-width: 25px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-left-width: 25px;
+    border-left-style: solid;
+    border-left-color: black;
+    margin-bottom: 50px;
+}
+
+/*TABLERO 1 */
+
+.grid-container{
+    display: grid;
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    grid-template-columns: 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px ;
+    justify-content: center;
+    align-content: center;
+    border-radius: 30px; 
+    border: 10px solid black;
+    margin-bottom: 50px;    
+ }
+ 
+.grid-container div{
+    padding: 30px;
+    text-align: center; 
+    border: 1px solid black;
+}
+.item1{   
+   background-color: white;
+}
+
+.item2{   
+    background-color: black;
+ }
+
+ .item3{   
+    background-color: white;
+ }
+
+ .item4{   
+    background-color: black;
+ }
+
+ .item5{   
+    background-color: white;
+ }
+
+ .item6{   
+    background-color: black;
+ }
+
+ .item7{   
+    background-color: white;
+ }
+
+ .item8{   
+    background-color: black;
+ }
+
+ .item9{   
+    background-color: white;
+ }
+
+ /*TABLERO 2*/
+
+ .grid-container2{
+   display: grid;
+   height: 400px;
+   width: auto;
+   background-color: rgb(8, 8, 154);
+   grid-template-columns: 100px 100px 100px ;
+   grid-template-rows: 100px 100px 100px ;
+   justify-content: center;
+   align-content: center;
+   margin-bottom: 50px;    
+}
+
+.grid-container2 div{
+   padding: 30px;
+   text-align: center;  
+}
+.item11{   
+   border-right: 10px solid skyblue;
+   border-bottom: 10px solid skyblue;
+}
+.item12{   
+   border-right: 10px solid skyblue;
+   border-bottom: 10px solid skyblue;
+}
+.item13{   
+   border-bottom: 10px solid skyblue;
+}
+.item14{
+   border-right: 10px solid skyblue;   
+   border-bottom: 10px solid skyblue;
+}
+.item15{ 
+   border-right: 10px solid skyblue;    
+   border-bottom: 10px solid skyblue;
+}
+.item16{  
+   border-bottom: 10px solid skyblue;
+}
+.item17{ 
+   border-right: 10px solid skyblue;   
+}
+.item18{ 
+   border-right: 10px solid skyblue;   
+}
+
+
+
+
+
+
